@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkolivegreen;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(175, 162, 162);
+}
+
+.grid-box {
+    border: 1px solid brown;
+    color: black;
+    font-size: 100px;
+    
+}
